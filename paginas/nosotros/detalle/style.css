@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Send+Flowers&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 159, 159, 0.842) !important;
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    font-weight: bold !important;
+}
+footer{
+    height: 250px;
+    background-color: rgba(255, 159, 159, 0.842) !important;
+}
+
+footer h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Send Flowers", cursive;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+.ingresar{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.registro{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.icono{
+    color: white;
+    font-size: 50px !important;
+}
+
+.icono2 {
+    color: white;
+    font-size: 50px !important;
+    margin-right: 3%;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    font-size: 2.0rem;
+    font-family: "Send Flowers", cursive;
+    font-weight: bold;
+}
+
+.tituloP{
+    display: flex;
+    align-items: center;
+    font-size: 2.0rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.bienvenida{
+    background-image: url('/imagen/fondo.avif');
+    height: 900px;
+    padding: 100px;
+    font-size: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.5%;
+}
+
+.caja{
+    background-color:rgba(255, 159, 159, 0.842) !important;
+    border-radius:  20px;
+    width:  300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-color: black;
+    border: 3px solid;
+}
+
+.parrafo{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center !important;
+}
+.cajon{
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.icono_foo{
+    font-size: 50px !important;
+    color: black;
+}
+.tamaño{
+    font-size: 30px;
+    font-style: oblique;
+}
+.pie{
+    display: flex;
+    justify-content: space-around;
+}
